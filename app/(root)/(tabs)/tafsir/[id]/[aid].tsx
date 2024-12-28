@@ -43,7 +43,7 @@ const Tafsir = () => {
       {!surahData ? (
         <ActivityIndicator size="large" color="#00ff00" />
       ) : (
-         <FlatList data={[1]} renderItem={ ()=> (
+         <FlatList nestedScrollEnabled={true} data={[1]} renderItem={ ()=> (
           <View className="w-full px-2 mt-24 mb-20">
             <View>
               <Text className="text-center text-3xl text-green-950 mb-2">
