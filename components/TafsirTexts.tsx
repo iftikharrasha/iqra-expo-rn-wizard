@@ -13,6 +13,8 @@ const TafsirTexts = ({ tafsir }: { tafsir: string[] }) => {
       estimatedItemSize={150}
       keyExtractor={(item, index) => index.toString()}
       renderItem={renderItem}
+      nestedScrollEnabled={true}
+      scrollEnabled={true}
     />
   );
 };

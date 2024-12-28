@@ -42,7 +42,7 @@ const Tafsir = () => {
       {!surahData ? (
         <ActivityIndicator size="large" color="#00ff00" />
       ) : (
-        <ScrollView>
+        <ScrollView nestedScrollEnabled={true} >
         <View className="w-full px-2 mt-24 mb-20">
           <View>
             <Text className="text-center text-3xl text-green-950 mb-2">
