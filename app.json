@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ECF8E3"
-      }
+      },
+      "package": "com.iftikharrasha.iqraexpornwizard"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "79ef02df-d6bb-4040-a2e0-ab4cc83d934e"
+      }
     }
   }
 }
