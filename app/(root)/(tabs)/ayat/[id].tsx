@@ -82,6 +82,7 @@ const Ayat = () => {
                 <FlashList
                   estimatedItemSize={150}
                   data={filteredAyats}
+                  contentContainerStyle={{paddingBottom:800}}
                   renderItem={({ item }) => {
                     const ayat = item;
                     return (
